@@ -218,7 +218,7 @@ a {
 }
 
 .partners-button {
-  padding: 16px 70px;
+  padding: 12px 70px;
   font-size: 14px;
   line-height: 1.2;
   color: var(--button-color);
@@ -301,7 +301,7 @@ a {
   }
 
   .partners-button {
-    padding: 16px 54px;
+    padding: 12px 54px;
   }
 }
 
