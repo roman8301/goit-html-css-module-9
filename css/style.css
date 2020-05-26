@@ -145,6 +145,7 @@ a {
 .partners-title {
   font-size: 22px;
   color: var(--heading-color);
+  letter-spacing: -0.8px;
 }
 
 .partners-list {
