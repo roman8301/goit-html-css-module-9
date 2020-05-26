@@ -25,6 +25,7 @@
 
 body {
   font-family: var(--main-font);
+  line-height: 1.2;
 }
 
 *,
@@ -68,7 +69,6 @@ a {
 .autorization-btn {
   padding: 10px 16px;
   font-size: 14px;
-  line-height: 1.2;
   color: var(--header-color);
   background-color: transparent;
   cursor: pointer;
@@ -89,7 +89,6 @@ a {
   color: var(--header-color);
   text-transform: uppercase;
   font-size: 20px;
-  line-height: 1.2;
 }
 
 /* MAIN */
@@ -101,15 +100,14 @@ a {
   color: var(--header-color);
   text-align: center;
   padding: 226px 0 138px;
-  margin-bottom: 72px;
 }
 
 .hero-title {
   text-transform: uppercase;
   font-size: 30px;
-  line-height: 1.2;
   margin-top: 0;
   margin-bottom: 18px;
+  letter-spacing: -0.2px;
 }
 
 .hero-title__br {
@@ -119,7 +117,6 @@ a {
 .hero-description {
   font-family: var(--second-font);
   font-size: 18px;
-  line-height: 1.2;
   margin-bottom: 18px;
 }
 
@@ -127,7 +124,6 @@ a {
   width: 280px;
   display: block;
   font-size: 14px;
-  line-height: 1.2;
   color: var(--header-color);
   background-color: var(--button-color);
   border-radius: 20px;
@@ -138,7 +134,8 @@ a {
 /* Section partners */
 .partners {
   text-align: center;
-  margin-bottom: 56px;
+  padding-top: 72px;
+  padding-bottom: 56px;
 }
 
 .partner-title__wrapper {
@@ -147,7 +144,6 @@ a {
 
 .partners-title {
   font-size: 22px;
-  line-height: 1.2;
   color: var(--heading-color);
 }
 
@@ -157,7 +153,6 @@ a {
 
 .partners-list__item {
   font-size: 14px;
-  line-height: 1.2;
 }
 
 .partners-list__img__wrapper {
@@ -176,8 +171,8 @@ a {
   display: block;
   bottom: 0;
   right: 0;
-  width: 32px;
-  height: 32px;
+  width: 37px;
+  height: 37px;
   border-radius: 50%;
   border: 4px solid #ffffff;
   background-position: center;
@@ -220,7 +215,6 @@ a {
 .partners-button {
   padding: 12px 70px;
   font-size: 14px;
-  line-height: 1.2;
   color: var(--button-color);
   background-color: transparent;
   border: 2px solid var(--button-color);
@@ -237,14 +231,11 @@ a {
   .site-logo__wrapper {
     text-align: center;
   }
-  .hero-title {
-    margin-left: -10px;
-    margin-right: -10px;
-  }
 
   .hero-description__br {
     display: block;
   }
+
   .partners-title__br {
     display: block;
   }
@@ -267,7 +258,6 @@ a {
   .hero {
     background-image: url('../img/bg/bg_tablet.png');
     padding: 222px 0 234px;
-    margin-bottom: 76px;
   }
 
   .hero-title {
@@ -289,7 +279,8 @@ a {
   }
 
   .partners {
-    margin-bottom: 40px;
+    padding-top: 76px;
+    padding-bottom: 40px;
   }
 
   .partner-title__wrapper {
@@ -318,6 +309,6 @@ a {
   }
 
   .partners {
-    margin-bottom: 72px;
+    padding-bottom: 72px;
   }
 }
